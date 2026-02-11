@@ -1,88 +1,81 @@
-# 🐍 Python Keywords
+<h2 align="center">🐍 Python Keywords</h2>
 
-## ✨ What are Keywords?
-
-**Keywords** are reserved words in Python that have predefined meanings.  
-They **cannot** be used as variable names or identifiers.
-
-They define the **structure and logic** of a Python program and are:
-
-- 🔒 Reserved
-- ⚠️ Case-sensitive
-- 🧠 Core part of Python syntax
+<p align="left">
+🔑 <b>Keywords</b> are reserved words in Python that have predefined meanings and <b>cannot be used as variable names</b>.<br>
+They define the <b>structure, flow, and logic</b> of a Python program.<br><br>
+⚠️ Keywords are <b>case-sensitive</b> and must be used exactly as defined by Python.
+</p>
 
 ---
 
-## 🔹 Logical Operators
+### 🔹 Logical Operators
 
-| Keyword | Description |
-|----------|------------|
-| `and` | Returns `True` if **both** conditions are true |
-| `or` | Returns `True` if **at least one** condition is true |
-| `not` | Reverses the truth value |
+- 🔸 **and** → Returns `True` if both conditions are true  
+- 🔸 **or** → Returns `True` if at least one condition is true  
+- 🔸 **not** → Reverses the truth value  
 
 ---
 
-## 🔹 Conditional Statements
+### 🔹 Conditional Statements
 
-| Keyword | Description |
-|----------|------------|
-| `if` | Starts a conditional block |
-| `else` | Executes when `if` condition is `False` |
-| `elif` | Checks additional conditions |
+- 🔸 **if** → Executes code when a condition is true  
+- 🔸 **else** → Executes when the `if` condition is false  
+- 🔸 **elif** → Checks additional conditions  
 
 ---
 
-## 🔹 Loops
+### 🔹 Loops 🔁
 
-| Keyword | Description |
-|----------|------------|
-| `while` | Repeats code while condition is `True` |
-| `for` | Iterates over a sequence |
-| `in` | Checks presence inside a sequence |
+- 🔸 **while** → Executes code while a condition remains true  
+- 🔸 **for** → Iterates over a sequence (list, tuple, string)  
+- 🔸 **in** → Checks if a value exists inside a sequence  
 
 ---
 
-## 🔹 Exception Handling ⚠️
+### 🔹 Exception Handling ⚠️
 
-| Keyword | Description |
-|----------|------------|
-| `try` | Defines block to test for errors |
-| `except` | Handles the exception |
-| `finally` | Always executes after try/except |
+- 🔸 **try** → Wraps code that may cause an error  
+- 🔸 **except** → Handles the exception  
+- 🔸 **finally** → Always executes, error or not  
 
 ---
 
-## 🔹 Functions
+### 🔹 Functions 🧩
 
-| Keyword | Description |
-|----------|------------|
-| `def` | Defines a function |
-| `return` | Sends back a value from function |
-| `lambda` | Creates anonymous function |
+- 🔸 **def** → Defines a function  
+- 🔸 **return** → Returns a value from a function  
+- 🔸 **lambda** → Creates a small anonymous function  
 
 ---
 
-## 🔹 Object-Oriented Programming (OOP)
+### 🔹 Object-Oriented Programming
 
-| Keyword | Description |
-|----------|------------|
-| `class` | Defines a class |
-| `is` | Checks object identity |
+- 🔸 **class** → Defines a class  
+- 🔸 **is** → Checks object identity (same memory reference)  
 
 ---
 
-## 🔹 Modules & Imports
+### 🔹 Imports & Modules 📦
 
-| Keyword | Description |
-|----------|------------|
-| `import` | Imports a module |
-| `from` | Imports specific components |
-| `as` | Creates an alias for module |
+- 🔸 **import** → Imports a module  
+- 🔸 **from** → Imports specific components  
+- 🔸 **as** → Creates an alias for a module  
 
 ---
 
-## 🔹 Special Constants
+### 🔹 Special Values
 
-| Keyword | Description |
-|-------
+- 🔸 **True** → Boolean true value  
+- 🔸 **False** → Boolean false value  
+- 🔸 **None** → Represents absence of a value  
+
+---
+
+### 🔹 Scope Keywords
+
+- 🔸 **global** → Declares a global variable inside a function  
+- 🔸 **nonlocal** → Modifies variable from enclosing scope  
+
+---
+
+✨ <b>Tip:</b> Mastering Python keywords is essential for writing clean, readable, and error-free code.
